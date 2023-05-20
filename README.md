@@ -7,14 +7,14 @@ My first Flutter project.
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Nomad Coder의 Flutter 강의를 보며 시작했다.
+Started by watching Nomad Coder's flutter challenge lecture.
+https://nomadcoders.co/flutter-for-beginners
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+첫번째 업데이트 내용은 강의에 나오는 기본 기능들이며, 두번째 업데이트부터는 필요한 기능들을 추가하기로 했다.
+The first picture is the basic features in Flutter, and I started adding features from the second.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 =======
-# Pomodoros
+# 0.1.0 Update
 >>>>>>> dcebc8ae51eb2cf87e4b7dfd4f7b6ed515924b6c
+![image](https://github.com/noaz98/Pomodoros/assets/102011453/5c114181-697c-4ba8-a1d6-0a3ec19a3dcc)
