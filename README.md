@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # pomodoro
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# Pomodoros
+>>>>>>> dcebc8ae51eb2cf87e4b7dfd4f7b6ed515924b6c
