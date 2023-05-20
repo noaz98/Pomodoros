@@ -14,8 +14,8 @@ Started by watching Nomad Coder's flutter challenge lecture.
 The first picture is the basic features in Flutter, and I started adding features from the second.
 
 ============================================================================================
-# 1. 0.1.0 Update
+# Update 0.1.0
 <img src="https://github.com/noaz98/Pomodoros/assets/102011453/5c114181-697c-4ba8-a1d6-0a3ec19a3dcc" width="200" height="400"/>
-<br>1. 타이머 기능 <br>
-2. Start / Stop 기능<br>
-3. 총 Pomodoro 횟수 <br>
+<pre>1. 타이머 기능
+2. Start / Stop 기능
+3. 총 Pomodoro 횟수 </pre>
