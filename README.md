@@ -5,9 +5,9 @@ My first Flutter project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
-
+<hr>
 Nomad Coder의 Flutter 강의를 보며 시작했다.
-Started by watching Nomad Coder's flutter challenge lecture.
+<br>Started by watching Nomad Coder's flutter challenge lecture.
 <br>https://nomadcoders.co/flutter-for-beginners
 
 첫번째 업데이트 내용은 강의에 나오는 기본 기능들이며, 두번째 업데이트부터는 필요한 기능들을 추가하기로 했다.
