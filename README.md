@@ -11,7 +11,7 @@ Started by watching Nomad Coder's flutter challenge lecture.
 <br>https://nomadcoders.co/flutter-for-beginners
 
 첫번째 업데이트 내용은 강의에 나오는 기본 기능들이며, 두번째 업데이트부터는 필요한 기능들을 추가하기로 했다.
-The first picture is the basic features in Flutter, and I started adding features from the second.
+<br>The first picture is the basic features in Flutter, and I started adding features from the second.
 
 ============================================================================================
 # Update 0.1.0
