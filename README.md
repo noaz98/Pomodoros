@@ -1,20 +1,27 @@
-<<<<<<< HEAD
-# pomodoro
+# Pomodoro App
 
-A new Flutter project.
+My first Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Nomad Coder의 Flutter 강의를 보며 시작했다.
+<br>Started by watching Nomad Coder's flutter challenge lecture.
+<br>https://nomadcoders.co/flutter-for-beginners
 
-A few resources to get you started if this is your first Flutter project:
+첫번째 업데이트 내용은 강의에 나오는 기본 기능들이며, 두번째 업데이트부터는 필요한 기능들을 추가하기로 했다.
+<br>The first picture is the basic features in Flutter, and I started adding features from the second.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+============================================================================================
+# Update 0.1.0
+<p align='center'>
+<img src="https://github.com/noaz98/Pomodoros/assets/102011453/5c114181-697c-4ba8-a1d6-0a3ec19a3dcc" width="200" height="400"/>
+</p>
+<pre>1. 타이머 기능
+2. Start / Stop 기능
+3. 총 Pomodoro 횟수 </pre>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Pomodoros
->>>>>>> dcebc8ae51eb2cf87e4b7dfd4f7b6ed515924b6c
+# Update 0.1.1
+<p align='center'>
+  <img src="https://github.com/noaz98/Pomodoros/assets/102011453/b4e4ae29-9344-4a90-862b-69b080c7a750" width="200" height="400"/>
+</p>
+<pre> Reset 기능 추가 </pre>
