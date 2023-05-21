@@ -15,6 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
   bool isRunning = false;
   int totalPomodoros = 0;
 
+  // Timer calculate
   void onTick(Timer timer) {
     if (totalSeconds == 0) {
       setState(() {
@@ -30,6 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
+// Timer Start Button|
   void onStartPressed() {
     timer = Timer.periodic(
       const Duration(seconds: 1),
@@ -40,11 +42,21 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
+// Timer Pause Button
   void onPausePressed() {
     timer.cancel();
     setState(() {
       isRunning = false;
     });
+  }
+
+// Timer Format
+  void onResetPressed() {
+    setState(() {
+      totalSeconds = fiftyMinutes;
+      isRunning = false;
+    });
+    timer.cancel();
   }
 
   String format(int seconds) {
@@ -74,15 +86,32 @@ class _HomeScreenState extends State<HomeScreen> {
           Flexible(
             flex: 3,
             child: Center(
-              child: IconButton(
-                iconSize: 120,
-                color: Theme.of(context).cardColor,
-                onPressed: isRunning ? onPausePressed : onStartPressed,
-                icon: Icon(
-                  isRunning
-                      ? Icons.pause_circle_outline
-                      : Icons.play_circle_outline,
-                ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  IconButton(
+                    //Start Button
+                    iconSize: 120,
+                    color: Theme.of(context).cardColor,
+                    onPressed: isRunning ? onPausePressed : onStartPressed,
+                    icon: Icon(
+                      isRunning
+                          ? Icons.pause_circle_outline
+                          : Icons.play_circle_outline,
+                    ),
+                  ),
+                  const SizedBox(height: 20),
+                  TextButton(
+                    //Reset Button
+                    onPressed: onResetPressed,
+                    child: Text('Reset',
+                        style: TextStyle(
+                          fontSize: 30,
+                          fontWeight: FontWeight.w600,
+                          color: Theme.of(context).cardColor,
+                        )),
+                  ),
+                ],
               ),
             ),
           ),
